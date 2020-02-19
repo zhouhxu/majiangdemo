@@ -1,8 +1,16 @@
-# TEST
-### 第一次使用Git
-### 第一次提交git
+## 脚本
+~~~sql
+create table USER
+(
+  ID          INTEGER auto_increment,
+  ACCOUNT_ID  VARCHAR(100),
+  NAME        VARCHAR(50),
+  TOKEN       VARCHAR(36),
+  GMT_CREATE  BIGINT,
+  GMT_UPDATED BIGINT,
+  constraint USER_PK
+    primary key (ID)
+);
 
-[elastcserach文档](https://elasticsearch.cn/explore)
+~~~
 
-
-[spring 文档](https://spring.io)
